@@ -1,15 +1,13 @@
-import React from 'react';  // Add this line
-import './index.css';
+import React from 'react'; 
+import './index.css'; 
+import NavbarMain from './Components/Navbar/NavbarMain';
 
 function App() {
   return (
-    <>
-      <div className="hello">
-        <h1 className='text-red-600 text-5xl'>hello</h1>
-      </div>
-    </>
+    <main className='font-body'>
+     <NavbarMain/> 
+    </main>
   );
 }
 
 export default App;
-
