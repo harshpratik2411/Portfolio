@@ -6,6 +6,8 @@ import HeroGradient from './Components/Hero/HeroGradient';
 import SubHero from './Components/Hero/SubHero';
 import AboutMeMain from './Components/AboutMeSection/AboutMeMain';
 import HelperSection from './Components/HelperSection';
+import SkillMain from './Components/SkillsSection/SkillMain';
+
 
 
 function App() {
@@ -16,6 +18,7 @@ function App() {
      <HeroMain/> 
      <SubHero/> 
      <AboutMeMain/> 
+     <SkillMain/>
      <HelperSection/>
     </main>
   );
