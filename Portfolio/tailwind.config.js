@@ -27,7 +27,8 @@ export default {
        pink : 	'#E72660',
        yellow:  '	#FFFF00',
        blue:    '	#0000ff',
-       lightPurple : '	#CBC3E3'
+       lightPurple : '	#CBC3E3' ,
+       color:' 0x00ff00',
     },
     extend: {
       boxShadow:{

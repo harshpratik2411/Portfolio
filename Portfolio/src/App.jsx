@@ -2,7 +2,7 @@ import React from 'react';
 import { Outlet } from 'react-router-dom';
 import './index.css';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import HomePage from './Pages/HomePage';
+import HomePage from './Pages/HomePage'; 
 import AboutMe from './Pages/AboutMe'
 import Skills from './Pages/Skills';
 import Projects from './Pages/Projects'

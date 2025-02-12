@@ -1,7 +1,7 @@
 import React from 'react'; 
 import HeroGradient from '../Components/Hero/HeroGradient';
 import NavbarMain from '../Components/Navbar/NavbarMain';
-import HeroMain from '../Components/Hero/HeroMain';
+import HeroMain from '../Components/Hero/HeroMain'; 
 import SubHero from '../Components/Hero/SubHero';
 import AboutMeMain from '../Components/AboutMeSection/AboutMeMain';
 import SkillMain from '../Components/SkillsSection/SkillMain'; 
@@ -14,7 +14,7 @@ const HomePage = () => {
   return (
     <>
       <HeroGradient />
-      <NavbarMain />
+      <NavbarMain /> 
       <HeroMain />
       <SubHero />
       <AboutMeMain />
